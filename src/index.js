@@ -19,6 +19,5 @@ serviceWorker.unregister();
 
 // Count Visits to the page
 countapi.visits().then((result) => {
-  console.log(result.value);
-  console.log(navigator.id);
+  console.log(`Visitors: ${result.value}`);
 });
